@@ -2,7 +2,9 @@ package objects;
 
 import javax.validation.constraints.Pattern;
 
+import jakarta.persistence.Entity;
 
+@Entity
 public class Deltager {
 
 	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Fornavn must have at least 2 characters and only contain letters, spaces, or dashes")

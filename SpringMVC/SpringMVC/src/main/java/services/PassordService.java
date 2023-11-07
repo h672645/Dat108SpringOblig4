@@ -9,6 +9,8 @@ import javax.crypto.spec.PBEKeySpec;
 
 import org.springframework.stereotype.Service;
 
+import jakarta.xml.bind.DatatypeConverter;
+
 @Service
 public class PassordService {
 
@@ -42,7 +44,7 @@ public class PassordService {
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
 		}
-		return javax.xml.bind.DatatypeConverter.printHexBinary(salt);
+		return DatatypeConverter.printHexBinary(salt);
 	}
 
 	/**
@@ -70,7 +72,7 @@ public class PassordService {
 		}
 
 		char[] passchar = passord.toCharArray();
-		byte[] saltbytes = javax.xml.bind.DatatypeConverter.parseHexBinary(salt);
+		byte[] saltbytes = DatatypeConverter.parseHexBinary(salt);
 
 		byte[] keyhash = null;
 		try {
@@ -81,6 +83,6 @@ public class PassordService {
 		} catch (NoSuchAlgorithmException | InvalidKeySpecException e) {
 			e.printStackTrace();
 		}
-		return javax.xml.bind.DatatypeConverter.printHexBinary(keyhash);
+		return DatatypeConverter.printHexBinary(keyhash);
 	}
 }
