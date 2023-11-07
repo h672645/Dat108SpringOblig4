@@ -1,0 +1,30 @@
+1699312100796	Rename resource 'paameldt.html'
+1699312102700	Move 'paameldt.jsp' to 'jsp'
+1699312150507	Rename resource 'paamelding_med_melding.html'
+1699312152669	Move 'paamelding_med_melding.jsp' to 'jsp'
+1699312187253	Rename resource 'innlogging_med_melding.html'
+1699312189445	Move 'innlogging_med_melding.jsp' to 'jsp'
+1699312225222	Rename package 'Controllere'
+1699312242251	Rename package 'SpringBootApplication'
+1699312255333	Rename package 'passord'
+1699312262791	Rename package 'service'
+1699312350149	Rename resource 'deltagerliste.html'
+1699312352785	Move 'deltagerliste.jsp' to 'jsp'
+1699314388313	Move compilation unit
+1699314393042	Move compilation unit
+1699314397830	Move compilation unit
+1699317656844	Delete elements
+1699320201684	Rename resource 'sql'
+1699320204788	Move 'sql.sql' to 'templates'
+1699324771161	Rename resource 'dependenciestekst'
+1699324837864	Delete element
+1699326895739	Rename package 'controllere'
+1699326901342	Rename package 'objekt'
+1699327408579	Delete elements
+1699327907980	Rename resource 'deltagerliste.html'
+1699327913357	Rename resource 'innlogging_med_melding.html'
+1699327918045	Rename resource 'paamelding_med_melding.html'
+1699327930721	Rename resource 'paameldt.html'
+1699328296377	Rename type 'paameldingController'
+1699328862878	Move compilation unit
+1699328961396	Move compilation unit

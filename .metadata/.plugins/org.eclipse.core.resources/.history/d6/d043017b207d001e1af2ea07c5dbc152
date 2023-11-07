@@ -1,0 +1,14 @@
+package application;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class PaameldingController {
+
+    @GetMapping(value="/", produces="text/pain")
+    public String redirectToPaaMeldingMedMelding() {
+        return "paamelding_med_melding";
+    }
+}

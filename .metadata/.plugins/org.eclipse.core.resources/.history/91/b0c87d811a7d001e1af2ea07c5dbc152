@@ -1,0 +1,7 @@
+## Fin JSON-output
+spring.jackson.serialization.indent_output = true
+
+## View plassering og extension
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .jsp
+

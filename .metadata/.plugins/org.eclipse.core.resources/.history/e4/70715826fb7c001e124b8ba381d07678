@@ -1,0 +1,13 @@
+package controllere;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class paameldingController {
+
+    @GetMapping("/")
+    public String redirectToView() {
+        return "paamelding_med_melding";
+    }
+}

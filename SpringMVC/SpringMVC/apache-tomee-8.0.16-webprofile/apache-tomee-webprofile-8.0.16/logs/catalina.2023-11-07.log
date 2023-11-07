@@ -1,0 +1,97 @@
+07-Nov-2023 02:03:38.069 INFO [main] java.lang.reflect.Method.invoke Server version name:   Apache Tomcat (TomEE)/9.0.82 (8.0.16)
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke Server built:          Oct 11 2023 13:15:08 UTC
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke Server version number: 9.0.82.0
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke OS Name:               Windows 10
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke OS Version:            10.0
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke Architecture:          amd64
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke Java Home:             C:\Program Files\Java\jdk-18.0.2
+07-Nov-2023 02:03:38.070 INFO [main] java.lang.reflect.Method.invoke JVM Version:           18.0.2+9-61
+07-Nov-2023 02:03:38.071 INFO [main] java.lang.reflect.Method.invoke JVM Vendor:            Oracle Corporation
+07-Nov-2023 02:03:38.071 INFO [main] java.lang.reflect.Method.invoke CATALINA_BASE:         C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16
+07-Nov-2023 02:03:38.071 INFO [main] java.lang.reflect.Method.invoke CATALINA_HOME:         C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\conf\logging.properties
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -javaagent:C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\lib\openejb-javaagent.jar
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Dignore.endorsed.dirs=
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Dcatalina.base=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16
+07-Nov-2023 02:03:38.083 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Dcatalina.home=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16
+07-Nov-2023 02:03:38.084 INFO [main] java.lang.reflect.Method.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\temp
+07-Nov-2023 02:03:38.092 INFO [main] java.lang.reflect.Method.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-18.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2023b\bin;C:\Users\Luna\AppData\Local\Microsoft\WindowsApps;C:\Users\Luna\AppData\Local\GitHubDesktop\bin;C:\Users\Luna\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+07-Nov-2023 02:03:38.320 INFO [main] java.lang.reflect.Method.invoke Initializing ProtocolHandler ["http-nio-8080"]
+07-Nov-2023 02:03:38.476 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB https://tomee.apache.org/
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Nov 07 02:03:38 CET 2023
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2023 (C) Apache TomEE Project, All Rights Reserved.
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.16
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20231029
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 12:20
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16
+07-Nov-2023 02:03:38.534 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16
+07-Nov-2023 02:03:38.536 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@3899782c
+07-Nov-2023 02:03:38.537 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+07-Nov-2023 02:03:38.556 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\conf\tomee.xml'
+07-Nov-2023 02:03:38.580 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+07-Nov-2023 02:03:38.581 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+07-Nov-2023 02:03:38.583 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+07-Nov-2023 02:03:38.586 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+07-Nov-2023 02:03:38.621 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+07-Nov-2023 02:03:38.674 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+07-Nov-2023 02:03:38.830 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+07-Nov-2023 02:03:38.830 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+07-Nov-2023 02:03:38.830 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+07-Nov-2023 02:03:38.830 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+07-Nov-2023 02:03:38.830 INFO [main] java.lang.reflect.Method.invoke Server initialization in [957] milliseconds
+07-Nov-2023 02:03:38.860 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+07-Nov-2023 02:03:38.861 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+07-Nov-2023 02:03:38.877 INFO [main] java.lang.reflect.Method.invoke Starting service [Catalina]
+07-Nov-2023 02:03:38.877 INFO [main] java.lang.reflect.Method.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/9.0.82 (8.0.16)]
+07-Nov-2023 02:03:38.887 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs]
+07-Nov-2023 02:03:38.897 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+07-Nov-2023 02:03:39.016 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs
+07-Nov-2023 02:03:39.046 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs" loaded.
+07-Nov-2023 02:03:39.084 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs
+07-Nov-2023 02:03:39.175 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs\META-INF\context.xml
+07-Nov-2023 02:03:39.176 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs)
+07-Nov-2023 02:03:39.280 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+07-Nov-2023 02:03:39.339 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Nov-2023 02:03:39.393 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\docs] has finished in [506] ms
+07-Nov-2023 02:03:39.393 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager]
+07-Nov-2023 02:03:39.394 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+07-Nov-2023 02:03:39.428 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager
+07-Nov-2023 02:03:39.435 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager" loaded.
+07-Nov-2023 02:03:39.437 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager
+07-Nov-2023 02:03:39.445 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager\META-INF\context.xml
+07-Nov-2023 02:03:39.445 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager)
+07-Nov-2023 02:03:39.476 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+07-Nov-2023 02:03:39.502 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Nov-2023 02:03:39.520 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\host-manager] has finished in [126] ms
+07-Nov-2023 02:03:39.520 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager]
+07-Nov-2023 02:03:39.521 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+07-Nov-2023 02:03:39.546 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager
+07-Nov-2023 02:03:39.554 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager" loaded.
+07-Nov-2023 02:03:39.554 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager
+07-Nov-2023 02:03:39.565 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager\META-INF\context.xml
+07-Nov-2023 02:03:39.565 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager)
+07-Nov-2023 02:03:39.591 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+07-Nov-2023 02:03:39.621 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Nov-2023 02:03:39.633 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\manager] has finished in [112] ms
+07-Nov-2023 02:03:39.633 INFO [main] java.lang.reflect.Method.invoke Deploying web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\ROOT]
+07-Nov-2023 02:03:39.633 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+07-Nov-2023 02:03:39.655 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\ROOT
+07-Nov-2023 02:03:39.660 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\ROOT" loaded.
+07-Nov-2023 02:03:39.661 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\ROOT
+07-Nov-2023 02:03:39.668 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\ROOT)
+07-Nov-2023 02:03:39.692 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+07-Nov-2023 02:03:39.708 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Nov-2023 02:03:39.720 INFO [main] java.lang.reflect.Method.invoke Deployment of web application directory [C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC\apache-tomee-8.0.16-webprofile\apache-tomee-webprofile-8.0.16\webapps\ROOT] has finished in [86] ms
+07-Nov-2023 02:03:39.722 INFO [main] java.lang.reflect.Method.invoke Starting ProtocolHandler ["http-nio-8080"]
+07-Nov-2023 02:03:39.734 INFO [main] java.lang.reflect.Method.invoke Server startup in [904] milliseconds

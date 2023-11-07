@@ -1,0 +1,87 @@
+package objekt;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Column;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
+@Entity
+public class Deltager {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Pattern(regexp = "^[1-9][0-9]{7}$", message = "Mobil must be 8 digits starting with a non-zero digit")
+    @NotNull
+    private Integer mobil;
+
+    @Pattern(regexp = "^[A-Za-z -]*$", message = "Fornavn must only contain letters, spaces, and dashes")
+    @Size(max = 24)
+    private String fornavn;
+
+    @Pattern(regexp = "^[A-Za-z -]*$", message = "Etternavn must only contain letters, spaces, and dashes")
+    @Size(max = 24)
+    private String etternavn;
+
+    @Pattern(regexp = "^(mann|kvinne)$", message = "Kjonn must be 'mann' or 'kvinne'")
+    @Size(max = 6)
+    private String kjonn;
+
+    public Deltager(Integer mobil, String fornavn, String etternavn, String kjonn) {
+        this.mobil = mobil;
+        this.fornavn = fornavn;
+        this.etternavn = etternavn;
+        this.kjonn = kjonn;
+    }
+	
+	public Deltager(String fornavn) {
+		this.fornavn = fornavn;
+	}
+	
+	public Deltager() {
+		
+	}
+
+	public int getMobil() {
+		return mobil;
+	}
+	public void setMobil(int mobil) {
+		this.mobil = mobil;
+	}
+	public String getFornavn() {
+		return fornavn;
+	}
+	public void setFornavn(String fornavn) {
+		this.fornavn = fornavn;
+	}
+	public String getEtternavn() {
+		return etternavn;
+	}
+	public void setEtternavn(String etternavn) {
+		this.etternavn = etternavn;
+	}
+	public String getPassord() {
+		return passord;
+	}
+	public void setPassord(String passord) {
+		this.passord = passord;
+	}
+	public Kjonn getKjonn() {
+		return kjonn;
+	}
+	public void setKjonn(Kjonn kjonn) {
+		this.kjonn = kjonn;
+	}
+	
+	@Override
+	public String toString() {
+		return "Deltager [fornavn=" + fornavn + ", etternavn=" + etternavn + ", mobil=" + mobil + ", passord=" + passord
+				+ ", kjonn=" + kjonn + "]";
+	}
+	
+}

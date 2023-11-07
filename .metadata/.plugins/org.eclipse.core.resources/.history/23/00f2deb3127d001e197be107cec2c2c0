@@ -1,0 +1,5 @@
+<!-- PostgreSQL JDBC Driver: Allows connecting to a PostgreSQL database -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
