@@ -6,6 +6,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC – KopiTilTesting\SpringMVCTest"/>
+			<item value="C:\Users\Luna\Dat108Spring\SpringMVC\SpringMVC – KopiTilTesting"/>
 			<item value="C:\Users\Luna\Dat108Spring\SpringMVC"/>
 			<item value="C:\Users\Luna\Dat108Spring\demo"/>
 			<item value="C:\Users\Luna\Dat108Spring"/>

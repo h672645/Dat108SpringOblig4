@@ -1,38 +1,19 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html lang="no">
+<html>
 <head>
-    <link href="css/simple.css" rel="stylesheet" type="text/css" />
-    <!-- <script src="js/myscript.js" defer></script> -->
-    <title>Paamelding</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/simple.css">
+    <title>Påmeldingsbekreftelse</title>
 </head>
-
 <body>
-    <h2>Paamelding</h2>
-    <p style="color:red;">Paameldingsdetaljer er ugyldige</p>
-    <form action="registrer" method="post">
-        <fieldset>
-
-            <label>Fornavn</label>
-            <input type="text" name="fornavn" value="Lars" />
-
-            <label>Etternavn</label>
-            <input type="text" name="etternavn" value="Larsen" />
-
-            <label>Mobil (8 siffer)</label>
-            <input type="text" name="mobil" value="1234" />
-
-            <label>Passord</label>
-            <input type="password" name="passord" value="test" />
-            <label>Passord repetert</label>
-            <input type="password" name="passordRepetert" value="test" />
-
-            <label>Kjonn</label>
-            <input type="radio" name="kjonn" value="mann" checked="checked" />mann
-            <input type="radio" name="kjonn" value="kvinne" />kvinne
-
-            <br><br><button type="submit">Meld meg paa</button>
-        </fieldset>
-    </form>
+    <h2>Påmeldingsbekreftelse</h2>
+    <p>Påmeldingen er mottatt for</p>
+    <p>
+        &nbsp;&nbsp;&nbsp;Arne<br />
+        &nbsp;&nbsp;&nbsp;Arnesen<br />
+        &nbsp;&nbsp;&nbsp;90123456<br /> &nbsp;&nbsp;&nbsp;mann
+    </p>
+    <a href="deltagerliste">Gå til deltagerlisten</a>
 </body>
 </html>
