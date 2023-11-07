@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import objects.Deltager;
-import objects.Kjonn;
 
 @Controller
 public class RegistreringController {

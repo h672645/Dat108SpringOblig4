@@ -9,13 +9,13 @@ import objects.Deltager;
 @Service
 public class DeltagerService {
     
-	@Autowired private DeltagerRepo deltagerrepo;
+	@Autowired private static DeltagerRepo deltagerrepo;
 
 	public List<Deltager> findAllDeltager() {
         return deltagerrepo.findAll();
     }
 
-    public Deltager finnDeltagerByFornavn(String navn) {
-        return deltagerrepo.findByFornavn(navn); // Use the method from the interface
+    public Deltager finnDeltagerMedMobil(String mobil) {
+        return deltagerrepo.findByMobil(mobil); // Use the method from the interface
     }
 }

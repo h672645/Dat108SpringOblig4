@@ -6,12 +6,12 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.Pattern;
 
 @Entity
-@Table(name="deltager")
+@Table(schema="oblig4", name="deltager")
 public class Deltager {
 
 	@Id
 	@Pattern(regexp = "^[0-9]{8}$", message = "Mobil must contain exactly 8 numbers")
-	private Integer mobil;
+	private String mobil;
 	
 	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Fornavn must have at least 2 characters and only contain letters, spaces, or dashes")
 	private String fornavn;
@@ -22,7 +22,7 @@ public class Deltager {
 	private String passord;
 
 	@Pattern(regexp = "^(mann|kvinne)$", message = "Kjonn must be either 'mann' or 'kvinne'")
-	private Kjonn kjonn;
+	private String kjonn;
 
 	public Deltager() {
 
@@ -32,7 +32,7 @@ public class Deltager {
 		this.fornavn = fornavn;
 	}
 
-	public Deltager(String fornavn, String etternavn, int mobil, String passord, Kjonn kjonn) {
+	public Deltager(String fornavn, String etternavn, String mobil, String passord, String kjonn) {
 		this.fornavn = fornavn;
 		this.etternavn = etternavn;
 		this.mobil = mobil;
@@ -48,11 +48,11 @@ public class Deltager {
 		return fornavn;
 	}
 
-	public Kjonn getKjonn() {
+	public String getKjonn() {
 		return kjonn;
 	}
 
-	public int getMobil() {
+	public String getMobil() {
 		return mobil;
 	}
 
@@ -68,11 +68,11 @@ public class Deltager {
 		this.fornavn = fornavn;
 	}
 
-	public void setKjonn(Kjonn kjonn) {
+	public void setKjonn(String kjonn) {
 		this.kjonn = kjonn;
 	}
 
-	public void setMobil(int mobil) {
+	public void setMobil(String mobil) {
 		this.mobil = mobil;
 	}
 

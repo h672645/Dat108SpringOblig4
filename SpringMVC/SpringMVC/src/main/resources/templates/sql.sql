@@ -4,7 +4,7 @@ SET search_path = oblig4;
 -- 2. Drop and create a new table "Deltagere" if it already exists
 DROP TABLE IF EXISTS Deltager;
 CREATE TABLE Deltager (
-    mobil INTEGER primary key,
+    mobil VARCHAR(8) primary key,
     fornavn VARCHAR(24),
     etternavn VARCHAR(24),
     passord VARCHAR(255),
