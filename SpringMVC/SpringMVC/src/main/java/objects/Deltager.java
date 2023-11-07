@@ -1,20 +1,23 @@
 package objects;
 
-import javax.validation.constraints.Pattern;
-
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.Pattern;
 
 @Entity
+@Table(name="deltager")
 public class Deltager {
 
+	@Id
+	@Pattern(regexp = "^[0-9]{8}$", message = "Mobil must contain exactly 8 numbers")
+	private Integer mobil;
+	
 	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Fornavn must have at least 2 characters and only contain letters, spaces, or dashes")
 	private String fornavn;
 
 	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Etternavn must have at least 2 characters and only contain letters, spaces, or dashes")
 	private String etternavn;
-
-	@Pattern(regexp = "^[0-9]{8}$", message = "Mobil must contain exactly 8 numbers")
-	private int mobil;
 
 	private String passord;
 
