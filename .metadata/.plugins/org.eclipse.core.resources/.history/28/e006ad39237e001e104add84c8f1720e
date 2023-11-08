@@ -1,0 +1,49 @@
+<%@ page contentType="text/html; charset=UTF-8" language="java"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<link href="css/simple.css" rel="stylesheet" type="text/css" />
+<!-- <script src="js/myscript.js" defer></script> -->
+<title>Paamelding</title>
+</head>
+
+<body>
+	<h2>Paamelding</h2>
+	<p style="color: red;"><c:out value="${redirectMessage}"/></p>
+	<form:form action="lagreDeltager" method="post" modelAttribute="deltager">
+		<fieldset>
+
+			<form:label path="fornavn">Fornavn:</form:label>
+			<form:input path="fornavn" />
+			<form:errors path="fornavn" cssClass="errorblock" element="div"></form:errors><br>
+			<p style="color: red;">${error_fornavn}</p>
+
+			<form:label path="etternavn">Etternavn:</form:label>
+			<form:input path="etternavn" />
+			<form:errors path="etternavn" cssClass="errorblock" element="div"></form:errors><br>
+
+			<form:label path="mobil" type="number">Mobil:</form:label>
+			<form:input path="mobil" />
+			<form:errors path="mobil" cssClass="errorblock" element="div"></form:errors><br>
+			
+			
+			<form:label path="passord">Passord</form:label> 
+			<form:input path="passord" type="password" name="passord" value="" /> 
+			<form:errors path="passord" cssClass="errorblock" element="div"></form:errors><br>
+			
+			<form:label path="passordRepetert">Passord repetert</form:label> 
+			<form:input path="passordRepetert" type="passordRepetert" name="passordRepetert" value=""/> 
+			<form:errors path="passordRepetert" cssClass="errorblock" element="div"></form:errors><br>
+			
+			<form:label path="kjonn">Kjonn</form:label>
+			<input type="radio" name="kjonn" value="mann" />mann 
+			<input type="radio" name="kjonn" value="kvinne" />kvinne <br>
+			<form:errors path="kjonn" cssClass="errorblock" element="div"></form:errors><br>
+			<br>
+			<button type="submit">Meld meg paa</button>
+		</fieldset>
+	</form:form>
+</body>
+</html>

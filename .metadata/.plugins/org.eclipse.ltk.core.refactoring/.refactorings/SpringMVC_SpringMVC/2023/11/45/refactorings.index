@@ -28,3 +28,27 @@
 1699328296377	Rename type 'paameldingController'
 1699328862878	Move compilation unit
 1699328961396	Move compilation unit
+1699428156573	Copy file
+1699429840568	Rename type 'DeltagerListe'
+1699435198468	Copy file
+1699435851413	Copy file
+1699435870900	Delete element
+1699435966799	Rename resource 'hilsen.jsp'
+1699436279384	Copy file
+1699436291114	Delete element
+1699441199476	Rename resource 'checkPasswordMatch'
+1699441238351	Delete element
+1699442852211	Copy folder
+1699446818527	Move 4 resources to 'male-filer'
+1699446822331	Move 'simple.css' to 'male-filer'
+1699446827313	Move 'deltagerDataValidering.js' to 'male-filer'
+1699446835805	Move 2 resources to 'male-filer'
+1699447916098	Move 4 resources to 'static'
+1699447920182	Move 'simple.css' to 'css'
+1699447930745	Move 'deltagerDataValidering.js' to 'js'
+1699447947269	Move 2 resources to 'templates'
+1699447951829	Delete element
+1699449125929	Rename resource 'paamelding.jsp'
+1699449195729	Delete element
+1699449200885	Delete element
+1699452446656	Move 4 resources to 'templates'

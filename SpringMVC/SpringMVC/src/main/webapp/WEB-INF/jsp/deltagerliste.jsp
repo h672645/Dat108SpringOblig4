@@ -1,13 +1,14 @@
 <%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/simple.css">
+    <link href="css/simple.css" rel="stylesheet" type="text/css" />
     <title>Deltagerliste</title>
 </head>
 <body>
-    <p>Innlogget som: 90123456 / Arne Arnesen</p>
+    <p>Innlogget som: <c:out value="${mobil} / ${fornavn} ${etternavn}" /></p>
     <h2>Deltagerliste</h2>
     <table>
         <tr>
@@ -42,7 +43,7 @@
         </tr>
     </table>
     <br>
-    <form action="utlogging" method="post">
+    <form action="logout" method="post">
        <button type="submit">Logg ut</button> 
     </form>
 </body>

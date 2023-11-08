@@ -1,0 +1,13 @@
+<script>
+  function checkPasswordMatch() {
+    var password = document.getElementById("passord").value;
+    var confirmPassword = document.getElementById("passordRepetert").value;
+
+    if (password !== confirmPassword) {
+      alert("Passwords do not match. Please re-enter.");
+      return false;
+    }
+
+    return true;
+  }
+</script>

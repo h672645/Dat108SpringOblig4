@@ -1,14 +1,15 @@
 <%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/simple.css">
+    <link href="css/simple.css" rel="stylesheet" type="text/css" />
     <title>Logg inn</title>
 </head>
 <body>
     <h2>Logg inn</h2>
-    <p style="color:red;">Du er logget ut</p>
+    <p style="color:red;"><c:out value="${redirectMessage}"/></p>
     <form method="post">
         <fieldset>
             <label for="mobil">Mobil:</label> 

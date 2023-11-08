@@ -13,10 +13,10 @@ public class Deltager {
 	@Pattern(regexp = "^[0-9]{8}$", message = "Mobil must contain exactly 8 numbers")
 	private String mobil;
 	
-	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Fornavn must have at least 2 characters and only contain letters, spaces, or dashes")
+	@Pattern(regexp = "^[A-Za-z\\s-]{2,20}$", message = "Fornavn must be 2-20 characters long and only contain letters, spaces, or dashes")
 	private String fornavn;
 
-	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Etternavn must have at least 2 characters and only contain letters, spaces, or dashes")
+	@Pattern(regexp = "^[A-Za-z\\s-]{2,20}$", message = "Etternavn must be 2-20 characters long and only contain letters, spaces, or dashes")
 	private String etternavn;
 
 	private String passord;

@@ -1,0 +1,31 @@
+package util;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+import objects.Deltager;
+
+public class LoginUtil {
+	
+	private final static int MAX_INTERACTIVE_INTERVAL = 300;
+
+	public static void loggUtBruker(HttpSession session) {
+        session.invalidate();
+	}
+
+	public static void loggInnBruker(HttpServletRequest request, String mobil) {
+    	
+        loggUtBruker(request.getSession());
+
+        HttpSession session = request.getSession();
+        session.setMaxInactiveInterval(MAX_INTERACTIVE_INTERVAL);
+        session.setAttribute("monil", mobil);
+        session.setAttribute("deltager", new Deltager());
+	}
+	
+	public static boolean erBrukerInnlogget(HttpSession session) {
+		return session != null 
+				&& session.getAttribute("username") != null
+				&& session.getAttribute("cart") != null;
+	}
+
+}

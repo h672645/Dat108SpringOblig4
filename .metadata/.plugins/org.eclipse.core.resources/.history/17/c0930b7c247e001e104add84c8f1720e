@@ -1,0 +1,102 @@
+package objects;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.Pattern;
+
+@Entity
+@Table(schema="oblig4", name="deltager")
+public class Deltager {
+
+	@Id
+	@Pattern(regexp = "^[0-9]{8}$", message = "Mobil must contain exactly 8 numbers")
+	private String mobil;
+	
+	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Fornavn must have at least 2 characters and only contain letters, spaces, or dashes")
+	private String fornavn;
+
+	@Pattern(regexp = "^[A-Za-z\\s-]{2,}$", message = "Etternavn must have at least 2 characters and only contain letters, spaces, or dashes")
+	private String etternavn;
+
+	@Pattern(regexp = "^(.*[\\p{L}\\p{N}\\p{S}].*){3,}$\r\n", message = "Passordet må inneholde minst 3 tegn")
+	private String passord;
+	
+	@Pattern(regexp = "\\A(?<password>.+)\\z", message = "Matcher ikke det første passordet.")
+	private String passordRepetert;
+
+	@Pattern(regexp = "^(mann|kvinne)$", message = "Kjonn must be either 'mann' or 'kvinne'")
+	private String kjonn;
+
+	public Deltager() {
+
+	}
+
+	public Deltager(String fornavn) {
+		this.fornavn = fornavn;
+	}
+
+	public Deltager(String fornavn, String etternavn, String mobil, String passord, String passordRepetert, String kjonn) {
+		this.fornavn = fornavn;
+		this.etternavn = etternavn;
+		this.mobil = mobil;
+		this.passord = passord;
+		this.passord = passordRepetert;
+		this.kjonn = kjonn;
+	}
+
+	public String getEtternavn() {
+		return etternavn;
+	}
+
+	public String getFornavn() {
+		return fornavn;
+	}
+
+	public String getKjonn() {
+		return kjonn;
+	}
+
+	public String getMobil() {
+		return mobil;
+	}
+
+	public String getPassord() {
+		return passord;
+	}
+
+	public void setEtternavn(String etternavn) {
+		this.etternavn = etternavn;
+	}
+
+	public void setFornavn(String fornavn) {
+		this.fornavn = fornavn;
+	}
+
+	public void setKjonn(String kjonn) {
+		this.kjonn = kjonn;
+	}
+
+	public void setMobil(String mobil) {
+		this.mobil = mobil;
+	}
+
+	public void setPassord(String passord) {
+		this.passord = passord;
+	}
+
+	public String getPassordRepetert() {
+		return passordRepetert;
+	}
+
+	public void setPassordRepetert(String passordRepetert) {
+		this.passordRepetert = passordRepetert;
+	}
+
+	@Override
+	public String toString() {
+		return "Deltager [fornavn=" + fornavn + ", etternavn=" + etternavn + ", mobil=" + mobil + ", passord=" + passord
+				+ ", kjonn=" + kjonn + "]";
+	}
+
+}
