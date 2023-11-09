@@ -11,7 +11,7 @@ public class DeltagerService {
     
 	@Autowired private static DeltagerRepo deltagerrepo;
 
-	public List<Deltager> findAllDeltager() {
+	public List<Deltager> finnAlleDeltagere() {
         return deltagerrepo.findAll();
     }
 

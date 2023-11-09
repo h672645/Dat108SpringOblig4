@@ -24,4 +24,5 @@
     <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
